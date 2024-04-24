@@ -45,3 +45,51 @@ escolha numero
     escreval("o numero ", numero," em mês é " , texto, "." )
 
 fimalgoritmo
+
+
+
+
+
+
+
+
+
+
+
+
+algoritmo "SoftEsbam"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : [Nome do Professor]
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
+var
+nome:caractere
+idade:inteiro
+categorias:inteiro
+
+
+inicio
+
+escreva ("Escreva seu nome completo: ")
+leia(nome)
+escreva("Escreva sua idade")
+leia(idade)
+se (idade<=5) e (idade>=10) entao
+    escreval ("Categoria infatil")
+senao
+    escreval ("false")
+
+fimse
+
+escolha idade
+    caso 5,6,7,8,9,10
+        categoria<-"infantil"
+    caso 11,12,13,14,15
+        categoria<-"juvenil"
+    caso 16,17,18,19,20
+        categoria<-""
+
+
+escreval(" Seu nome completo é: ",nome, " e sua idade é: ",idade,"." )
+fimalgoritmo
