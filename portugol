@@ -1,0 +1,47 @@
+algoritmo "ConverterNumeroParaNomEemMes"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : [Nome do Professor]
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
+var
+
+texto: caractere
+numero: inteiro
+
+inicio
+
+escreval ("Digite um numero de 1 a 12")
+leia(numero)
+escolha numero
+    caso 1 
+        texto<-"Janeiro"
+    caso 2
+        texto <-"Fevereiro"
+    caso 3
+        texto <-"Março"
+    caso 4
+        texto <-"Abril"
+    caso 5
+        texto <-"Maio"
+     caso 6
+        texto<-"Junho"
+    caso 7
+        texto <-"Julho"
+    caso 8
+        texto <-"Agosto"
+    caso 9
+        texto <-"Setembro"
+    caso 10
+        texto <-"Outubro"
+    caso 11
+        texto <-"Novembro"
+    caso 12
+        texto <-"Dezembro"
+
+    outrocaso
+        numero<- "testo fora do intervalo"
+    fimescolha
+    escreval("o numero ", numero," em mês é " , texto, "." )
+
+fimalgoritmo
